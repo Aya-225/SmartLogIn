@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -18,7 +20,8 @@
                 </h1>
                 <input type="text" id="email" class="over form-control my-3" placeholder="Enter your email" >
                 <input type="password" id="password" class="over form-control my-3" placeholder="Enter your password" >
-              <button class="over btn btn-outline-info w-100 my-3" onclick="Login()" > Login</button>
+             <p id="incorrect"></p>
+                <button class="over btn btn-outline-info w-100 my-3" onclick="Login()" > Login</button>
            <p class="text-white"> Don't have an account?
                <a class="text-white" href="sign.html" >Sign Up</a>
            </p>

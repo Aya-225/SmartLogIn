@@ -1,19 +1,24 @@
 body{
     background-color: #24353f;
 }
+/* #home {
+    height: 75vh;
+} */
 .container{
     max-width: 850px;
     width:100%;
   
-    height: auto;
+    /* height: auto; */
    
     background-color: #24353f;
+    box-sizing: border-box;
   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
 }
   
 
 .container input{
     background-color: transparent;
+
 
 
 
@@ -25,7 +30,8 @@ body{
     border-color:#17a2b8 ;
 }
 .container input::placeholder{
-    color: rgb(147, 147, 147);
+    color:rgb(182, 182, 182);
+  
 }
 .custom{
     width: 75%;
@@ -46,9 +52,14 @@ display: inline;
 a:hover{
     text-decoration: underline;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px ) {
     .container {
-       max-width: 375px;
+       max-width: 375px ;
+       min-height:425px ;
      
 }
+
+}
+@-ms-viewport{
+    width: device-width
 }
