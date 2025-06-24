@@ -60,6 +60,16 @@ a:hover{
 }
 
 }
+@media(max-width: 540px ) {
+    .container {
+       max-width: 300px ;
+       min-height:425px ;
+     
+}
+.group input{
+    width: 100%;
+}
+}
 @-ms-viewport{
     width: device-width
 }
